@@ -31,7 +31,7 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold">
+            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
               Register Now
             </button>
           </CardFooter>
@@ -52,7 +52,7 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold">
+            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
               Register Now
             </button>
           </CardFooter>
@@ -73,7 +73,7 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold">
+            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
               Register Now
             </button>
           </CardFooter>

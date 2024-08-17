@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -27,6 +28,9 @@ export default function RootLayout({
           <Header />
         </div>
         <div>{children}</div>
+        <div className="w-full">
+          <Footer />
+        </div>
       </body>
     </html>
   );
