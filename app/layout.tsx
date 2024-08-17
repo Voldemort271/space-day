@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={raleway.className}>
-        <div className="w-full sticky top-0">
+        <div className="w-full sticky top-0 z-50 shadow-2xl">
           <Navbar />
         </div>
         <div className="w-full h-[80vh]">

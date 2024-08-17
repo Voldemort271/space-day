@@ -11,7 +11,7 @@ const Header = () => {
         className="absolute top-0 w-full h-full -z-10 object-cover"
       />
       <div className="max-w-lg text-center space-y-5">
-        <div className="text-4xl sm:text-6xl font-bold">Space Day '24</div>
+        <div className="text-4xl sm:text-6xl font-bold">Space Day &apos;24</div>
         <div>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
           culpa est ipsa iusto porro quae quas repellendus reprehenderit sunt,
