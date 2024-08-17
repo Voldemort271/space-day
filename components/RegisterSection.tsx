@@ -11,23 +11,27 @@ import {
 const RegisterSection = () => {
   return (
     <div className="w-full space-y-5">
-      <div className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text">
+      <div
+        className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text"
+        id="register"
+      >
         Register for Competitions
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
           <CardHeader className="mt-8 space-y-2.5">
-            <CardTitle>Contest 1</CardTitle>
+            <CardTitle>Painting</CardTitle>
             <CardDescription className="font-semibold">
               Solo, School Event
             </CardDescription>
           </CardHeader>
           <CardContent>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis dolores eius fugiat magnam minus, nesciunt rerum
-              tenetur. Necessitatibus possimus praesentium quasi. A expedita
-              fugiat incidunt laboriosam, nesciunt quidem vel voluptatum!
+              A solo painting event exclusively for school students will be
+              featured, allowing young artists to showcase their individual
+              creativity and talent. This event provides a platform for students
+              to express their artistic vision and gain recognition for their
+              unique works.
             </p>
           </CardContent>
           <CardFooter>
@@ -38,17 +42,18 @@ const RegisterSection = () => {
         </Card>
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
           <CardHeader className="mt-8 space-y-2.5">
-            <CardTitle>Contest 1</CardTitle>
+            <CardTitle>Quiz</CardTitle>
             <CardDescription className="font-semibold">
-              Solo, School Event
+              Team, School/College Event
             </CardDescription>
           </CardHeader>
           <CardContent>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis dolores eius fugiat magnam minus, nesciunt rerum
-              tenetur. Necessitatibus possimus praesentium quasi. A expedita
-              fugiat incidunt laboriosam, nesciunt quidem vel voluptatum!
+              The quiz competition will be held separately for school and
+              college students, with each team comprising at least two members.
+              This team-based event will test participants' knowledge across
+              various topics, offering a challenging and collaborative
+              experience for all.
             </p>
           </CardContent>
           <CardFooter>
@@ -59,17 +64,18 @@ const RegisterSection = () => {
         </Card>
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
           <CardHeader className="mt-8 space-y-2.5">
-            <CardTitle>Contest 1</CardTitle>
+            <CardTitle>Essay Writing</CardTitle>
             <CardDescription className="font-semibold">
-              Solo, School Event
+              Solo, School/College Event
             </CardDescription>
           </CardHeader>
           <CardContent>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis dolores eius fugiat magnam minus, nesciunt rerum
-              tenetur. Necessitatibus possimus praesentium quasi. A expedita
-              fugiat incidunt laboriosam, nesciunt quidem vel voluptatum!
+              The essay writing competition will be a solo event open to both
+              school and college students, with participants having the option
+              to write in either Hindi or English. This format allows students
+              to showcase their writing skills and express their ideas on
+              various topics.
             </p>
           </CardContent>
           <CardFooter>

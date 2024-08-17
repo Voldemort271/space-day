@@ -3,41 +3,74 @@ import EventCard from "@/components/EventCard";
 
 const eventData = [
   {
-    title: "Good boy",
-    date: "August 15, 2023",
-    time: "10:00 AM",
-    desc: "Join us for an exclusive online event to learn about the latest technological advancements and industry trends. This hands-on workshop will teach you how to build a successful and innovative product.",
+    title: "Exhibition",
+    time: "All day",
+    desc: "The event will feature a vibrant display of student posters, showcasing their creativity and knowledge in space science. Alongside these, various exhibitions, including the Swan spacecraft and the Mars Rover, will offer an immersive experience into the fascinating world of space exploration.",
   },
   {
-    title: "Good boy",
-    date: "August 15, 2023",
-    time: "10:00 AM",
-    desc: "Join us for an exclusive online event to learn about the latest technological advancements and industry trends. This hands-on workshop will teach you how to build a successful and innovative product.",
+    title: "Opening Ceremony",
+    time: "09:30 to 10:00 am",
+    desc: "The ceremony will begin with the traditional lamp lighting, symbolizing the dispelling of darkness and the pursuit of knowledge. This will be followed by Sarasvati Vandana, invoking the blessings of the goddess of wisdom and learning, setting a reverent tone for the event.",
   },
   {
-    title: "Good boy",
-    date: "August 15, 2023",
-    time: "10:00 AM",
-    desc: "Join us for an exclusive online event to learn about the latest technological advancements and industry trends. This hands-on workshop will teach you how to build a successful and innovative product.",
+    title: "Expert Talk",
+    time: "10:00 to 10:30 am",
+    desc: "The event will also include a talk by Prof. Arti Sarkar, an esteemed expert in the field. Her insights and experiences will provide valuable perspectives, inspiring both students and attendees with her knowledge and passion for space science.",
   },
   {
-    title: "Good boy",
-    date: "August 15, 2023",
-    time: "10:00 AM",
-    desc: "Join us for an exclusive online event to learn about the latest technological advancements and industry trends. This hands-on workshop will teach you how to build a successful and innovative product.",
+    title: "Video Screening",
+    time: "10:30 to 10:45 am",
+    desc: "A highlight of the event will be a special video showcasing the remarkable achievements of ISRO. This presentation will celebrate the milestones and groundbreaking missions that have positioned India as a key player in global space exploration.",
   },
   {
-    title: "Good boy",
-    date: "August 15, 2023",
-    time: "10:00 AM",
-    desc: "Join us for an exclusive online event to learn about the latest technological advancements and industry trends. This hands-on workshop will teach you how to build a successful and innovative product.",
+    title: "Expert Talk",
+    time: "10:45 to 11:15 am",
+    desc: "The event will feature an enlightening talk by Prof. J.S. Yadav, a renowned figure in the scientific community. His presentation will delve into advanced topics in space research, offering attendees a deeper understanding of the complexities and innovations driving the field forward.",
+  },
+  {
+    title: "IITMd and ISRO’s Future Missions",
+    time: "11:15 to 11:30 am",
+    desc: "The event will kick off with an introduction to IIT Mandi, emphasizing its pivotal role in advancing research and innovation. This will be followed by an overview of STAC's dynamic activities, showcasing projects that are driving scientific and technological progress. The session will conclude with a captivating video on ISRO's future missions.",
+  },
+  {
+    title: "Expert Talk",
+    time: "11:30 to 12:00 pm",
+    desc: "The event will feature an engaging talk by Prof. Balamurugan, who will share his expertise and insights on current advancements and future directions in the field. His presentation promises to enrich the audience's understanding and inspire new perspectives.",
+  },
+  {
+    title: "Video Presentation",
+    time: "12:00 to 12:15 pm",
+    desc: "The event will include a video presentation, offering an insightful overview of recent developments and key achievements in the field. This engaging video will highlight significant milestones and future directions, providing a comprehensive view of ongoing advancements.",
+  },
+  {
+    title: "Expert Talk",
+    time: "12:15 to 12:45 pm",
+    desc: "The event will feature an enlightening talk by Dr. Tarun Pant, who will delve into his specialized research and share valuable insights. His presentation is expected to offer a deep understanding of his field and inspire attendees with his expertise.",
+  },
+  {
+    title: "Competitions",
+    time: "02:00 to 05:00 pm",
+    desc: "The event will host a variety of engaging activities, including quiz competitions that test participants' knowledge and skills. Hackathon presentations will showcase innovative solutions and creative projects developed by students. Additionally, there will be essay and painting competitions, offering platforms for students to express their ideas and artistic talents. Student posters will be displayed, highlighting their research and creative work, while the Udankhatola project will provide an intriguing glimpse into its unique contributions.",
+  },
+  {
+    title: "Closing Ceremony",
+    time: "05:00 to 05:30 pm",
+    desc: "The event will culminate in a grand prize distribution ceremony, celebrating the achievements of participants across various competitions and presentations. This ceremony will honor the outstanding contributions and performances, recognizing excellence and innovation in a festive and rewarding conclusion.",
+  },
+  {
+    title: "Stargazing",
+    time: "08:00 to 10:00 pm",
+    desc: "The event will include a stargazing session at the fountain area behind the auditorium. Attendees will have the opportunity to explore the night sky through telescopes, guided by experts who will share fascinating insights about celestial objects and constellations.",
   },
 ];
 
 const HomeSchedule = () => {
   return (
     <div className="w-full space-y-5">
-      <div className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text">
+      <div
+        className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text"
+        id="events"
+      >
         Event Schedule
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -45,7 +78,7 @@ const HomeSchedule = () => {
           <EventCard
             key={index}
             title={event.title}
-            date={event.date}
+            date={"23 Aug, 2024"}
             time={event.time}
           >
             {event.desc}

@@ -28,7 +28,10 @@ const speakerData = [
 const Speakers = () => {
   return (
     <div className="w-full space-y-5">
-      <div className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text">
+      <div
+        className="text-2xl sm:text-4xl font-bold bg-gradient-to-t from-zinc-600 to-zinc-100 text-transparent bg-clip-text"
+        id="speakers"
+      >
         Guest Speakers
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

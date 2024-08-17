@@ -13,10 +13,8 @@ const Header = () => {
       <div className="max-w-lg text-center space-y-5">
         <div className="text-4xl sm:text-6xl font-bold">Space Day &apos;24</div>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-          culpa est ipsa iusto porro quae quas repellendus reprehenderit sunt,
-          voluptatem. Commodi dignissimos ducimus et in iusto nemo numquam sit
-          tenetur?
+          Celebrate the wonders of the universe and the spirit of exploration
+          that drives us to reach for the stars.
         </div>
         <div>
           <button className="px-8 py-3 rounded-md text-lg bg-sky-700 transition hover:bg-sky-800">

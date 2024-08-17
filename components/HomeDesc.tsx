@@ -12,16 +12,16 @@ const HomeDesc = () => {
       />
       <div className="space-y-5">
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus
-          aut deleniti dolores error laboriosam nobis perferendis perspiciatis
-          repellat, sint tempore, velit voluptatum. A dolorem est eveniet
-          excepturi id sunt. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Ab at blanditiis eius est explicabo impedit magni nulla, optio
-          perferendis quaerat quibusdam repellat ut! Consequatur eius ipsum
-          itaque minima suscipit totam? Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Ab aliquam aliquid illo impedit, mollitia nam sunt
-          vitae! Eligendi illo in, maxime nostrum quasi quidem quod similique!
-          Amet nemo nobis rem!
+          The event will feature insightful keynote addresses by experts,
+          informative exhibitions and videos, ingenious models and prototypes
+          and exciting competitions for school and college students. We shall
+          also arrange space for students to display their own posters and
+          models to convey their interest and enthusiasm in space sciences and
+          technology to the other attendees. It will provide a unique
+          opportunity for the students to become aware of the importance and
+          benefits of space exploration, recognize the significant achievements
+          of India in space exploration and space technology and be inspired to
+          contribute to our country's efforts to reach for the stars
         </div>
       </div>
     </div>
