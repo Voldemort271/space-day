@@ -14,12 +14,13 @@ const HomeAbout = () => {
         </div>
         <div>
           This is the first ever National Space Day, after the Government of
-          India declared August 23rd as the "National Space Day" to honour the
-          success of the Chandrayaan-3 mission, which achieved a soft landing of
-          the Vikram Lander at the 'Shiv Shakti' point and deployed the Pragyaan
-          Rover on the lunar surface on August 23, 2023. The celebration will
-          take place on 23rd August 2024 at the beautiful campus of IIT Mandi,
-          located in the serene Himalayan region of Himachal Pradesh, India.
+          India declared August 23rd as the &apos;National Space Day&apos; to
+          honour the success of the Chandrayaan-3 mission, which achieved a soft
+          landing of the Vikram Lander at the &apos;Shiv Shakti&apos; point and
+          deployed the Pragyaan Rover on the lunar surface on August 23, 2023.
+          The celebration will take place on 23rd August 2024 at the beautiful
+          campus of IIT Mandi, located in the serene Himalayan region of
+          Himachal Pradesh, India.
         </div>
       </div>
       <Image

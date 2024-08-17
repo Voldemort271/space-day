@@ -51,8 +51,8 @@ const RegisterSection = () => {
             <p>
               The quiz competition will be held separately for school and
               college students, with each team comprising at least two members.
-              This team-based event will test participants' knowledge across
-              various topics, offering a challenging and collaborative
+              This team-based event will test participants&apos; knowledge
+              across various topics, offering a challenging and collaborative
               experience for all.
             </p>
           </CardContent>
