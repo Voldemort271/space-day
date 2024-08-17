@@ -16,17 +16,15 @@ interface Props {
 
 const EventCard = ({ title, date, time, children }: Props) => {
   return (
-    <div>
-      <Card className="bg-foreground border-zinc-100/[0.3] text-background">
-        <CardContent className="mt-8 space-y-2.5">
-          <CardTitle>{title}</CardTitle>
-          <CardDescription className="font-semibold">{`${time}, ${date}`}</CardDescription>
-        </CardContent>
-        <CardFooter>
-          <p>{children}</p>
-        </CardFooter>
-      </Card>
-    </div>
+    <Card className="bg-foreground border-zinc-100/[0.3] text-background">
+      <CardContent className="mt-8 space-y-2.5">
+        <CardTitle>{title}</CardTitle>
+        <CardDescription className="font-semibold">{`${time}, ${date}`}</CardDescription>
+      </CardContent>
+      <CardFooter>
+        <p>{children}</p>
+      </CardFooter>
+    </Card>
   );
 };
 

@@ -2,6 +2,7 @@ import HomeAbout from "@/components/HomeAbout";
 import HomeDesc from "@/components/HomeDesc";
 import HomeSchedule from "@/components/HomeSchedule";
 import Speakers from "@/components/Speakers";
+import RegisterSection from "@/components/RegisterSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div className="max-w-screen-xl">
         <Speakers />
+      </div>
+      <div className="max-w-screen-lg">
+        <RegisterSection />
       </div>
     </main>
   );
