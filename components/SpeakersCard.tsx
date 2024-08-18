@@ -17,23 +17,21 @@ interface Props {
 
 const SpeakersCard = ({ name, img, children }: Props) => {
   return (
-    <div>
-      <Card className="bg-foreground border-zinc-100/[0.3] text-background">
-        <CardHeader>
-          <Image
-            src={img}
-            alt={"Profile pic"}
-            className="rounded-md max-w-sm mx-auto"
-          />
-        </CardHeader>
-        <CardContent className="mt-8 space-y-2.5">
-          <CardTitle>{name}</CardTitle>
-        </CardContent>
-        <CardFooter>
-          <p>{children}</p>
-        </CardFooter>
-      </Card>
-    </div>
+    <Card className="bg-foreground border-zinc-100/[0.3] text-background">
+      <CardHeader>
+        <Image
+          src={img}
+          alt={"Profile pic"}
+          className="rounded-md max-w-sm mx-auto"
+        />
+      </CardHeader>
+      <CardContent className="mt-8 space-y-2.5">
+        <CardTitle>{name}</CardTitle>
+      </CardContent>
+      <CardFooter>
+        <p>{children}</p>
+      </CardFooter>
+    </Card>
   );
 };
 

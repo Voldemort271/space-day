@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeaderPic from "@/public/header.png";
+import RocketPic from "@/public/rocket.png";
 
 const HomeAbout = () => {
   return (
@@ -24,7 +24,7 @@ const HomeAbout = () => {
         </div>
       </div>
       <Image
-        src={HeaderPic}
+        src={RocketPic}
         alt={"Nice"}
         className="w-full max-w-96 aspect-video object-cover"
       />

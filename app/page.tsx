@@ -11,7 +11,7 @@ export default function Home() {
         <iframe
           width="600"
           height="400"
-          src="https://www.youtube.com/embed/hOHKltAiKXQ?si=NfQj9UBl5xfsRbn3"
+          src="https://www.youtube.com/embed/rrTtLze5Ydk?si=jJ8GyJXoyVV9HqfO"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -22,7 +22,7 @@ export default function Home() {
         <iframe
           width="300"
           height="200"
-          src="https://www.youtube.com/embed/hOHKltAiKXQ?si=NfQj9UBl5xfsRbn3"
+          src="https://www.youtube.com/embed/rrTtLze5Ydk?si=jJ8GyJXoyVV9HqfO"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
