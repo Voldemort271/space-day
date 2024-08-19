@@ -21,7 +21,7 @@ const HomeDesc = () => {
           opportunity for the students to become aware of the importance and
           benefits of space exploration, recognize the significant achievements
           of India in space exploration and space technology and be inspired to
-          contribute to our country&apos;s efforts to reach for the stars
+          contribute to our country&apos;s efforts to reach for the stars.
         </div>
       </div>
     </div>

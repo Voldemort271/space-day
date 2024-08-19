@@ -22,7 +22,7 @@ const SpeakersCard = ({ name, img, children }: Props) => {
         <Image
           src={img}
           alt={"Profile pic"}
-          className="rounded-md max-w-sm mx-auto"
+          className="rounded-md max-w-[200px] mx-auto aspect-square object-cover"
         />
       </CardHeader>
       <CardContent className="mt-8 space-y-2.5">

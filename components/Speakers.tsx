@@ -7,12 +7,12 @@ import Speaker4 from "@/public/tarunpant.jpg";
 
 const speakerData = [
   {
-    name: "Dr J S Yadav",
+    name: "Prof J S Yadav",
     img: Speaker1,
     bio: "Dr. J. S. Yadav is a distinguished researcher with extensive experience in space instrumentation. He worked at TIFR Mumbai from 1982 to 2018, contributing to key projects like the Anuradha instrument, the Gamma Ray Spectrometer on NASA's Mars Observer, and the Indian X-ray Astronomy Experiment. He led the development of the Large Area X-ray Proportional Counter (LAXPC) on India's AstroSat, launched by ISRO in 2015. The LAXPC has significantly advanced the study of neutron star and black hole X-ray binaries, leading to over 100 research publications.",
   },
   {
-    name: "Dr Bhalamurugan Sivaraman",
+    name: "Prof Bhalamurugan Sivaraman",
     img: Speaker2,
     bio: "Dr. B. Sivaraman is a professor in the Atomic, Molecular, and Optical Physics Division at the Physical Research Laboratory in Ahmedabad. He holds a B.Tech in Chemical Engineering from the University of Madras and a Ph.D. in Astrochemistry from The Open University, UK. Dr. Sivaraman has made significant contributions to low-temperature astrochemistry and was awarded the INSA medal for young scientists in 2016. His research focuses on the physico-chemical changes in astrochemical ices and high-temperature astrochemistry. He also serves as a Visiting Lecturer at the International Space University in France.",
   },

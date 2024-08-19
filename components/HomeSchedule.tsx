@@ -18,29 +18,14 @@ const eventData = [
     desc: "The event will also include a talk by Prof. Arti Sarkar, an esteemed expert in the field. Her insights and experiences will provide valuable perspectives, inspiring both students and attendees with her knowledge and passion for space science.",
   },
   {
-    title: "Video Screening",
-    time: "10:30 to 10:45 am",
-    desc: "A highlight of the event will be a special video showcasing the remarkable achievements of ISRO. This presentation will celebrate the milestones and groundbreaking missions that have positioned India as a key player in global space exploration.",
-  },
-  {
     title: "Expert Talk",
     time: "10:45 to 11:15 am",
     desc: "The event will feature an enlightening talk by Prof. J.S. Yadav, a renowned figure in the scientific community. His presentation will delve into advanced topics in space research, offering attendees a deeper understanding of the complexities and innovations driving the field forward.",
   },
   {
-    title: "IITMd and ISRO’s Future Missions",
-    time: "11:15 to 11:30 am",
-    desc: "The event will kick off with an introduction to IIT Mandi, emphasizing its pivotal role in advancing research and innovation. This will be followed by an overview of STAC's dynamic activities, showcasing projects that are driving scientific and technological progress. The session will conclude with a captivating video on ISRO's future missions.",
-  },
-  {
     title: "Expert Talk",
     time: "11:30 to 12:00 pm",
     desc: "The event will feature an engaging talk by Prof. Balamurugan, who will share his expertise and insights on current advancements and future directions in the field. His presentation promises to enrich the audience's understanding and inspire new perspectives.",
-  },
-  {
-    title: "Video Presentation",
-    time: "12:00 to 12:15 pm",
-    desc: "The event will include a video presentation, offering an insightful overview of recent developments and key achievements in the field. This engaging video will highlight significant milestones and future directions, providing a comprehensive view of ongoing advancements.",
   },
   {
     title: "Expert Talk",

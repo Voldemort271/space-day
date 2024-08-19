@@ -14,8 +14,8 @@ const Header = () => {
       <div className="max-w-xl text-center space-y-5">
         <div className="text-4xl sm:text-6xl font-bold">National Space Day</div>
         <div>
-          Celebrate the wonders of the universe and the spirit of exploration
-          that drives us to reach for the stars.
+          Join us for celebrating Bharat's space odyssey — Chandrayaan 3 and
+          beyond.
         </div>
         <div>
           <Link href={"#events"}>
