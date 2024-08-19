@@ -9,7 +9,7 @@ const eventData = [
   },
   {
     title: "Opening Ceremony",
-    time: "09:30 to 10:00 am",
+    time: "09:00 to 10:00 am",
     desc: "The ceremony will begin with the traditional lamp lighting, symbolizing the dispelling of darkness and the pursuit of knowledge. This will be followed by Sarasvati Vandana.",
   },
   {

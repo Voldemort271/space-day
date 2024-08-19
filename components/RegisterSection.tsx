@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 
 const RegisterSection = () => {
   return (
@@ -35,9 +36,11 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
-              Register Now
-            </button>
+            <Link href={"https://forms.gle/g5RaYsv8u7JCntsf8"} target="_blank">
+              <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
+                Register Now
+              </button>
+            </Link>
           </CardFooter>
         </Card>
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
@@ -57,9 +60,11 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
-              Register Now
-            </button>
+            <Link href={"https://forms.gle/jEqtUYMfi6YcExV27"} target="_blank">
+              <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
+                Register Now
+              </button>
+            </Link>
           </CardFooter>
         </Card>
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
@@ -79,9 +84,11 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
-              Register Now
-            </button>
+            <Link href={"https://forms.gle/ZCyiGJ8hpvHM1kND7"} target="_blank">
+              <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
+                Register Now
+              </button>
+            </Link>
           </CardFooter>
         </Card>
       </div>
@@ -103,11 +110,6 @@ const RegisterSection = () => {
               Campus.
             </p>
           </CardContent>
-          <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
-              Register Now
-            </button>
-          </CardFooter>
         </Card>
         <Card className="bg-foreground border-zinc-100/[0.3] text-background">
           <CardHeader className="mt-8 space-y-2.5">
@@ -126,9 +128,11 @@ const RegisterSection = () => {
             </p>
           </CardContent>
           <CardFooter>
-            <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
-              Register Now
-            </button>
+            <Link href={"https://forms.gle/Bva5Ktn5ikd8oCn97"} target="_blank">
+              <button className="w-full px-4 py-2 bg-sky-600 rounded-md font-semibold transition hover:bg-sky-700">
+                Register Now
+              </button>
+            </Link>
           </CardFooter>
         </Card>
       </div>
