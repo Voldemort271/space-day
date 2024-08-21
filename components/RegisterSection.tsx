@@ -29,12 +29,12 @@ const RegisterSection = () => {
           <CardContent>
             <p>
               The upcoming Painting Competition invites participants to explore
-              the theme of "Science Fiction on a Space Mission." The competition
-              is open to students across various age groups, with categories for
-              Nursery to 1, 2 to 5, and 6 to 8. All necessary papers will be
-              provided for the creative journey. Get ready to launch your
-              imagination into the cosmos and create your own visionary space
-              mission!
+              the theme of &apos;Science Fiction on a Space Mission.&apos; The
+              competition is open to students across various age groups, with
+              categories for Nursery to 1, 2 to 5, and 6 to 8. All necessary
+              papers will be provided for the creative journey. Get ready to
+              launch your imagination into the cosmos and create your own
+              visionary space mission!
             </p>
           </CardContent>
           <CardFooter>
