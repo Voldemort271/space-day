@@ -28,11 +28,13 @@ const RegisterSection = () => {
           </CardHeader>
           <CardContent>
             <p>
-              A solo painting event exclusively for school students will be
-              featured, allowing young artists to showcase their individual
-              creativity and talent. This event provides a platform for students
-              to express their artistic vision and gain recognition for their
-              unique works.
+              The upcoming Painting Competition invites participants to explore
+              the theme of "Science Fiction on a Space Mission." The competition
+              is open to students across various age groups, with categories for
+              Nursery to 1, 2 to 5, and 6 to 8. All necessary papers will be
+              provided for the creative journey. Get ready to launch your
+              imagination into the cosmos and create your own visionary space
+              mission!
             </p>
           </CardContent>
           <CardFooter>
@@ -53,9 +55,10 @@ const RegisterSection = () => {
           <CardContent>
             <p>
               The quiz competition will be held separately for school and
-              college students, with each team comprising two members. This
-              team-based event will test participants&apos; knowledge across
-              various topics, offering a challenging and collaborative
+              college students, with each team comprising two members. The theme
+              will be <strong>Indian Space Mission & Space in General</strong>.
+              This team-based event will test participants&apos; knowledge
+              across various topics, offering a challenging and collaborative
               experience for all.
             </p>
           </CardContent>
@@ -75,13 +78,20 @@ const RegisterSection = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
+            <div>
               The essay writing competition will be a solo event open to both
               school and college students, with participants having the option
               to write in either Hindi or English. This format allows students
               to showcase their writing skills and express their ideas on
-              various topics.
-            </p>
+              various topics. The list of topics are: <br />
+              <br />
+              <ul className="font-semibold">
+                <li>Future of Indian Space Program</li>
+                <li> Origin and Fate of the Universe</li>
+                <li> Beyond the known Universe</li>
+                <li> Extraterrestrial Living Beings</li>
+              </ul>
+            </div>
           </CardContent>
           <CardFooter>
             <Link href={"https://forms.gle/ZCyiGJ8hpvHM1kND7"} target="_blank">
@@ -120,11 +130,12 @@ const RegisterSection = () => {
           </CardHeader>
           <CardContent>
             <p>
-              The quiz competition will be held separately for school and
-              college students, with each team comprising two members. This
-              team-based event will test participants&apos; knowledge across
-              various topics, offering a challenging and collaborative
-              experience for all.
+              Problem statement: <strong>Satellite Data Visualization</strong>.
+              Develop a web or mobile app that visualizes real-time satellite
+              data from ISRO. Integrate at least one type of dataset. Ensure a
+              simple, user-friendly interface with basic map navigation. Include
+              at least one basic data analysis feature, like trend analysis our
+              data comparison. The app should update data in real-time.
             </p>
           </CardContent>
           <CardFooter>
